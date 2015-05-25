@@ -1,0 +1,23 @@
+body {
+	background: #f1f1f1;
+}
+.bg {
+	background: url("../img/kasra.png") no-repeat top;
+	height: 300px;
+	max-width: 100%;
+	margin-top: 10%;
+	z-index: 9999;
+	text-align: center;
+	padding-top: 25%;
+	font-family: 'B yekan';
+	direction: rtl;
+	font-size: 30px;
+	animation: change 20s infinite;
+}
+@keyframes change {
+	10% {color : blue;}
+	25% {color : #D3CC02}
+	50% {color : #5A5A5A}
+	75% {color : #05DDC8}
+	100% {color: #A938E1}
+}
