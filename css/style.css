@@ -9,6 +9,7 @@ body {
 }
 p {
 	animation: change 20s infinite;
+	-webkit-animation: change 20s infinite;
 	font-size: 30px;
 	font-family: 'B yekan';
 	direction: rtl;
